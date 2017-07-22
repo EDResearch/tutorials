@@ -1,4 +1,4 @@
-package com.example.choi.dtoi;
+package com.example.choi.dtoi.Activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,9 +8,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
-import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.example.choi.dtoi.R;
 
 /**
  * Created by choi on 2017. 7. 22..
@@ -41,7 +42,7 @@ public class SplashActivity extends AppCompatActivity {
         startBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(SplashActivity.this,MainActivity.class));
+                startActivity(new Intent(SplashActivity.this,TutorialActivity.class));
                 finish();
             }
         });

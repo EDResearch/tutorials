@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">DtoI</string>
     <string name="splash_start">시작하기</string>
+    <string name="autoridetutorial1">블루투스를 이용해 리더기를</string>
+    <string name="autoridetutorial2">찍지 않고 자동으로 결제합니다</string>
+    <string name="tutorial_two_two">손잡이의 LED를 점멸합니다</string>
+    <string name="tutorial_two_one">좌석에 착석시 좌석 근차</string>
 </resources>
